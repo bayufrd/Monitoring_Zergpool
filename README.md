@@ -56,6 +56,11 @@ Selesai =))
 ## Sumber
 [API ZERGPOOL](https://zergpool.com/site/api).
 
+## Bug
+```
+Sometimes error at reading total hashrate, cz im writin' code manual, total hashrate not available at api pool. Will solved as soon as posible =D "kalo ga mager"
+```
+
 # Donasi
 * DOGE  : D8QyZTdUo6jLpx3RVj6pwbCmgeVh6pC59m
 * SKY   : 2gkeczcbPXSWUNKBzNVHoXbmBvqKEmQV5Gz
