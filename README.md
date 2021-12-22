@@ -58,7 +58,7 @@ Selesai =))
 
 ## Bug
 ```
-Sometimes error at reading total hashrate, cz im writin' code manual, total hashrate not available at api pool. Will solved as soon as posible =D "kalo ga mager"
+[Solved] Sometimes error at reading total hashrate, cz im writin' code manual, total hashrate not available at api pool. Will solved as soon as posible =D "kalo ga mager"
 ```
 
 # Donasi
