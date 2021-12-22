@@ -59,5 +59,5 @@ Selesai =))
 # Donasi
 * DOGE  : D8QyZTdUo6jLpx3RVj6pwbCmgeVh6pC59m
 * SKY   : 2gkeczcbPXSWUNKBzNVHoXbmBvqKEmQV5Gz
-* VRSC  : RP6Lin6xCKZcdyEhsRZSkrg6i9BGwqkfWu
+* VRSC  : -
 * BNB   : 0x89d5cfdbc82d6a768d2279ba04b2dffeeb6b50e1
