@@ -6,8 +6,8 @@
            # G A N T I - D E N G A N - M I L I K - K A L I A N #           #
 coin=DOGE                                            #Coin                 #
 Wallet=D8QyZTdUo6jLpx3RVj6pwbCmgeVh6pC59m            #walletaddress        #
-TOKEN=5006730939:AAGBZhLv31EWPAVKIADxxI_7wwnRhzqo5DY #ChannelToken         #
-CHAT_ID=(1546898379)                                 #ID UserTelegram      #
+TOKEN=50067****9:AAGBZhLv31EWPAVKIADxxI_7wwnRhzqo5DY #ChannelToken         #
+CHAT_ID=(15468****9)                                 #ID UserTelegram      #
                                                                            #
 #==========================================================================#
 
