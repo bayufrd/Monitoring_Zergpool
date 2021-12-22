@@ -8,7 +8,7 @@ coin=DOGE                                            #Coin                 #
 Wallet=D8QyZTdUo6jLpx3RVj6pwbCmgeVh6pC59m            #walletaddress        #
 TOKEN=50067****9:AAGBZhLv31EWPAVKIADxxI_7wwnRhzqo5DY #ChannelToken         #
 CHAT_ID=(15468****9)                                 #ID UserTelegram      #
-                                                                           #
+miner=20                                             #jumlah Miner kalian  #
 #==========================================================================#
 
 
@@ -91,7 +91,7 @@ echo -e "Sunday\t\t: "$minpay_sunday $coin>> $MSG_FILE
 echo -e "Total\t\t: "$total $coin >> $MSG_FILE
 echo -e "Accepted\t: "$eimi >> $MSG_FILE
 sed -i "s/ID: /\n\t\tID: /g" $MSG_FILE
-echo -e "Total Online\t: "$count" / 20 Miners" >> $MSG_FILE
+echo -e "Total Online\t: "$count" / "$miner" Miners" >> $MSG_FILE
 echo -e "Hashrate Total\t: "$hstot " Mh/s" >> $MSG_FILE
 echo -e "${g}===================="; $r
     MESSAGE=`cat $MSG_FILE`
