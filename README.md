@@ -26,7 +26,7 @@ nano stat.sh
 
 [TOKEN BOT](https://langsungviral.com/2019/12/04/cara-mendapatkan-api-key-atau-token-bot-telegram-dan-chat-id-telegram/).
 
-* Save dan Keluar (Ctrl + X, Y)
+* Save dan Keluar (Ctrl + X lalu Y), Enter.
 * Tambah kan pengijinan untuk akses file
 ```
 chmod +x stat.sh
