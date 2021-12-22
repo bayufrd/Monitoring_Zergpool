@@ -18,7 +18,7 @@ nano stat.sh
 ```
 * Bisa dirubah bagian ini ganti milik kalian
 
-![This is a alt text.](https://github.com/bayufrd/Monitoring_Zergpool/blob/main/image_2021-12-22_154654.png "Silahkan diganti.")
+![This is a alt text.](https://github.com/bayufrd/Monitoring_Zergpool/blob/main/image_2021-12-23_031237.png "Silahkan diganti.")
 
 * Bagi yang belum mengerti untuk mendapatkan ID Telegram dan TOKEN BOT nya bisa akses link berikut:
 
