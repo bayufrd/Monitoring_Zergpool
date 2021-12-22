@@ -46,18 +46,18 @@ balance=$(cat "$JSON_FILE" | awk -F, 'NR>1{print $1}' RS='"balance": ')
 unpaid=$(cat "$JSON_FILE" | awk -F, 'NR>1{print $1}' RS='"unpaid": ')
 paid24h=$(cat "$JSON_FILE" | awk -F, 'NR>1{print $1}' RS='"paid24h": ')
 minpay=$(cat "$JSON_FILE" | awk -F, 'NR>1{print $1}' RS='"minpay": ')
-minpay_sunday=$(cat "$JSON_FILE" | awk -F, 'NR>1{print $1}' RS='"minpay_sunday":                                                                                 ')
+minpay_sunday=$(cat "$JSON_FILE" | awk -F, 'NR>1{print $1}' RS='"minpay_sunday":')
 total=$(cat "$JSON_FILE" | awk -F, 'NR>1{print $1}' RS='"total": ')
-eimi=$(cat "$JSON_FILE" | jq -r ' .miners[] | "ID: " + (.ID + " | Hashrate: " +                                                                                 .hashrate)')
+eimi=$(cat "$JSON_FILE" | jq -r ' .miners[] | "ID: " + (.ID + " | Hashrate: " + .hashrate)')
 
 count=$(cat "$JSON_FILE" | jq -r '.miners | length')
 
 #total
-cat "$JSON_FILE" | jq -r '[ .miners[] | select(.hashrate | contains(" Mh/s") ) ]                                                                                ' >> mhs.json
-mhs=$(cat "mhs.json" | jq -r '[.[].hashrate | gsub("Mh/s";"") | tonumber] | add'                                                                                )
+cat "$JSON_FILE" | jq -r '[ .miners[] | select(.hashrate | contains(" Mh/s") ) ]' >> mhs.json
+mhs=$(cat "mhs.json" | jq -r '[.[].hashrate | gsub("Mh/s";"") | tonumber] | add')
 
-cat "$JSON_FILE" | jq -r '[ .miners[] | select(.hashrate | contains(" kh/s") ) ]                                                                                ' >> khs.json
-khs=$(cat "khs.json" | jq -r '[.[].hashrate | gsub("kh/s";"") | tonumber] | add                                                                                 | floor/1000')
+cat "$JSON_FILE" | jq -r '[ .miners[] | select(.hashrate | contains(" kh/s") ) ]' >> khs.json
+khs=$(cat "khs.json" | jq -r '[.[].hashrate | gsub("kh/s";"") | tonumber] | add | floor/1000')
 
 
 hstot=$(echo "$mhs + $khs" | bc)
