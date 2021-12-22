@@ -1,6 +1,9 @@
 # Monitoring_Zergpool
 ## Bash file monitoring wallet to telegram
 ![This is a alt text.](https://github.com/bayufrd/Monitoring_Zergpool/blob/main/image_2021-12-22_161618.png "Monitoring Zergpool.")
+##### fitur
+* auto retry jika gagal mendapatkan api, sampai dapat.
+
 ##### Install apk JQ
 ```
 sudo apt install jq
