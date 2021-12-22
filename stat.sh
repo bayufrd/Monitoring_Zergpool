@@ -81,7 +81,7 @@ echo -e "${g}===================="; $r
 if [ -z "$total" ]
 then
     #fail
-    echo -e "${g}FAIL.. try again"; $r
+    echo -e "${g}FAIL Connection Problem.. try again"; $r
 
 else
     #send tele
