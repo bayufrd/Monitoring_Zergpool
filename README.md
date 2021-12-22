@@ -4,7 +4,7 @@
 ##### fitur
 * auto retry jika gagal mendapatkan api, sampai dapat.
 
-##### Install apk JQ
+##### Yang dibutuhkan: JQ
 ```
 sudo apt install jq
 ```
